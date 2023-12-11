@@ -24,7 +24,7 @@ aj = Image.open(aj)
 family = Image.open(family)
 family_pic = Image.open(family_pic)
 picture = Image.open(picture)
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns(2)
 with col1:
     st.image(aj, width=230)
 
