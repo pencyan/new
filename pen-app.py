@@ -11,12 +11,13 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 family = current_dir / "assets" / "family.png"
 family_pic = current_dir / "assets" / "family_pic.png"
 picture = current_dir / "assets" / "picture.jpg"
+
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "STREAMLIT | STEPHENE B. DAUGDAUG"
 PAGE_ICON = ":wave:"
-NAME ="Stephene B. Daugdaug"
+NAME ="STEPHENE B. DAUGDAUG"
 DESCRIPTION = """
-Student from SNSU Main Campus
+Student from SNSU Main Campus(Surigao city)
 """
 EMAIL = "stephenedaugdaug16@gmail.com"
 
@@ -47,7 +48,7 @@ if selected == "Programming Logic and Design":
         st.write("---")
         st.write('\n')
         st.subheader("DESCRIPTION")
-        st.write("Hello, this is my Webpage Project in Programming Logic and Design.")
+        st.write("Hi :smiley: , this is my Webpage Project in Programming Logic and Design.")
         st.write("My personal Information is on the left side,")
         st.write("just click on it if you want my information.")
         st.write("also you can go to Contacts if you have questions just message or call me. :smiley:")
@@ -75,7 +76,7 @@ if selected == "Personal Information":
          st.markdown("---")
 
     st.markdown("#")
-    st.header("Schools Graduated:")
+    st.header("SCHOOLS GRADUATED:")
     st.write(":school: ELEMENTARY: Karihatag Elementary School")
     st.write(":school: JUNIOR HIGH: Surigao State College of Cechnology(SSCT)")
     st.write(":school: SENIOR HIGH: Malimono National High School")
